@@ -52,7 +52,7 @@ function getUserInfo() {
 
 // 获取用户头像
 function renderAvater(user) {
-    var name = user.username || user.nickname
+    var name = user.nickname || user.username
     // 设置文本
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name)
     // 渲染头像
